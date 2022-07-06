@@ -23,8 +23,27 @@ if(FPGA_BOARD MATCHES ".usm.*")
     message(STATUS "USM host allocations are enabled")
 endif()
 
-# Include ac_types headers and link against ac_types emulation libraries
-set(AC_TYPES_FLAG "-qactypes")
+# set default seed for specific FPGA boards
+if(FPGA_BOARD MATCHES ".*s10.*")
+    set(SEED "-Xsseed=4")
+elseif(FPGA_BOARD MATCHES ".*agilex.*")
+    set(SEED "-Xsseed=1")
+endif()
+
+if(IGNORE_DEFAULT_SEED)
+    set(SEED "")
+endif()
+
+# These are Windows-specific flags:
+# 1. /EHsc This is a Windows-specific flag that enables exception handling in host code
+# 2. /Qactypes Include ac_types headers and link against ac_types emulation libraries
+if(WIN32)
+    set(WIN_FLAG "/EHsc")
+    set(AC_TYPES_FLAG "/Qactypes")
+else()
+    # Include ac_types headers and link against ac_types emulation libraries
+    set(AC_TYPES_FLAG "-qactypes")
+endif()
 
 # Allow the user to enable real IO pipes
 # e.g. cmake .. -DREAL_IO_PIPES=1
