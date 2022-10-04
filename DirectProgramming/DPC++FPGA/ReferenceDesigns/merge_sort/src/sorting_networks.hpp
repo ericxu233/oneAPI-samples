@@ -3,7 +3,7 @@
 
 #include <algorithm>
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 
 // Included from DirectProgramming/DPC++FPGA/include/

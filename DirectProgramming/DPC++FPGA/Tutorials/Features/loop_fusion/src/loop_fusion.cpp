@@ -3,7 +3,7 @@
 //
 // SPDX-License-Identifier: MIT
 // =============================================================
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <iomanip>
 #include <iostream>
 #include <sycl/ext/intel/fpga_extensions.hpp>

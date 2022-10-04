@@ -1,7 +1,7 @@
 #ifndef __FORWARD_SUBSTITUTION_HPP__
 #define __FORWARD_SUBSTITUTION_HPP__
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 
 // utility classes

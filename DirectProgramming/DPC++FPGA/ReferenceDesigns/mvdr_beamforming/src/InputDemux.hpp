@@ -1,7 +1,7 @@
 #ifndef __INPUT_DEMUX_HPP__
 #define __INPUT_DEMUX_HPP__
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 #include <cmath>
 

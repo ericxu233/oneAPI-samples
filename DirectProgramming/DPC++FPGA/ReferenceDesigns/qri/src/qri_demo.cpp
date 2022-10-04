@@ -1,5 +1,5 @@
 #include <math.h>
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <chrono>
 #include <iomanip>
 #include <list>

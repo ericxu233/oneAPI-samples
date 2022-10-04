@@ -1,7 +1,7 @@
 #ifndef __MERGE_HPP__
 #define __MERGE_HPP__
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 
 #include "sorting_networks.hpp"

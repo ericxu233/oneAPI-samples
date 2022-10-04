@@ -2,7 +2,7 @@
 #define __GZIPKERNEL_H__
 #pragma once
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 
 using namespace sycl;
 

@@ -1,4 +1,4 @@
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 
 #include "gzipkernel.hpp"
 #include "kernels.hpp"

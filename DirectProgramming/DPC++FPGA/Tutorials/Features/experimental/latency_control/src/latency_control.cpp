@@ -1,4 +1,4 @@
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <numeric>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 

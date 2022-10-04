@@ -4,7 +4,7 @@
 #include <iostream>
 #include <type_traits>
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 
 #include "FakeIOPipes.hpp"

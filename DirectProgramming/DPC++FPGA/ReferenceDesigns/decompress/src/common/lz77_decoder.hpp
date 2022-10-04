@@ -1,7 +1,7 @@
 #ifndef __LZ77_DECODER_HPP__
 #define __LZ77_DECODER_HPP__
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/ac_types/ac_int.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 

@@ -2,7 +2,7 @@
 #define __PIPE_TYPES_H__
 #pragma once
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 
 #include "../db_utils/StreamingData.hpp"

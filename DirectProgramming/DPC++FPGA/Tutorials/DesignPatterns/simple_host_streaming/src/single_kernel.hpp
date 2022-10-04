@@ -5,7 +5,7 @@
 #ifndef __SINGLE_KERNEL_HPP__
 #define __SINGLE_KERNEL_HPP__
 
-#include <sycl/sycl.hpp>
+#include <CL/sycl.hpp>
 #include <sycl/ext/intel/fpga_extensions.hpp>
 
 using namespace sycl;
